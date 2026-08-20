@@ -1,0 +1,19 @@
+# Python dependencies for the experiment and figure scripts.
+#   pip install -r experiments/requirements.txt
+# Tested with Python >= 3.9 (cluster runs anaconda3/2023.03).
+
+# Core numerics — every script
+numpy>=1.23
+scipy>=1.10
+pandas>=1.5
+
+# Plotting — make_fig_secom.py, make_fig_threshold.py, make_fig_detect.py
+matplotlib>=3.6
+
+# StandardScaler on the SECOM sensors —
+#   run_secom_redesign.py, run_secom_detect4.py, make_fig_detect.py
+scikit-learn>=1.2
+
+# JIT for the SA inner loop — run_threshold_coverage.py ONLY
+# (not needed if you are only redrawing figures from experiments/results/)
+numba>=0.57
