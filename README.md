@@ -1,7 +1,7 @@
 # When Does Adaptive Preconditioning Preserve Valid Inference?
 ### A Stabilization Threshold for Streaming Quality Monitoring
 
-**Sunyoung An**, Xiaoming Huo — H. Milton Stewart School of Industrial and Systems
+**Sunyoung An**, and **Xiaoming Huo** — H. Milton Stewart School of Industrial and Systems
 Engineering, Georgia Institute of Technology.
 
 This repository holds the **exact experiment code** behind the paper's three
