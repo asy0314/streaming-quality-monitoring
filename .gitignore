@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
+# CSVs staged into experiments/ by make_figures.sh (canonical copies live in results/)
+/experiments/secom_redesign_anchor_d21_prod.csv
+/experiments/threshold_coverage_summary.csv
+
+# Python / matplotlib
+__pycache__/
+*.pyc
+.mpl-cache/
+
+# Scratch outputs from `run_experiments.sh smoke`
+/experiments/threshold_coverage.pdf
+/experiments/threshold_coverage_supplement.pdf
+/experiments/secom_redesign_anchor_d21_*.csv
+/experiments/secom_detect4_summary.csv
