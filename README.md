@@ -1,7 +1,7 @@
 # When Does Adaptive Preconditioning Preserve Valid Inference?
 ### A Stabilization Threshold for Streaming Quality Monitoring
 
-**Sunyoung An** and **Xiaoming Huo** — H. Milton Stewart School of Industrial and Systems
+**Sunyoung An**, Xiaoming Huo — H. Milton Stewart School of Industrial and Systems
 Engineering, Georgia Institute of Technology.
 
 This repository holds the **exact experiment code** behind the paper's three
@@ -53,7 +53,8 @@ pip install -r experiments/requirements.txt
 
 ```text
 .
-├── LICENSE                         # MIT for the code; see section 8 for the rest
+├── LICENSE                         # MIT — covers the code under experiments/
+├── NOTICE                          # terms for the SECOM data and the figures
 ├── figs/
 │   ├── fig_secom.pdf               # Fig. 1  §6.2  SECOM self-calibration (3 panels)
 │   ├── fig_threshold.pdf           # Fig. 2  §6.3  threshold violation (constant-EMA)
@@ -373,12 +374,14 @@ Everything needed to run these experiments is openly licensed. Checked
 
 | Component | License | Redistribution here |
 |---|---|---|
-| Code (`experiments/`) | MIT — see `LICENSE` | — |
+| Code (`experiments/`) | MIT — see [`LICENSE`](LICENSE) | — |
 | SECOM data (`experiments/secom_data/`) | **CC BY 4.0** | permitted with attribution ✓ |
 | Figures (`figs/`) | © 2026 Sunyoung An | included here; not separately licensed |
 | numpy, scipy, pandas, scikit-learn | BSD-3-Clause | not redistributed (dependencies) |
 | numba | BSD-2-Clause | not redistributed |
 | matplotlib | Matplotlib License (PSF-derived, BSD-compatible) | not redistributed |
+
+Components not covered by the MIT grant are itemised in [`NOTICE`](NOTICE).
 
 **Data.** No issue. SECOM is CC BY 4.0, which explicitly permits sharing and
 adaptation for any purpose given appropriate credit; `secom_data/ATTRIBUTION.md`

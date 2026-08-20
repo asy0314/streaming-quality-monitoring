@@ -1,0 +1,34 @@
+NOTICE
+======
+
+The MIT License in `LICENSE` covers the CODE in this repository — everything
+under `experiments/`. Two other components are included under different terms.
+
+1. SECOM dataset — `experiments/secom_data/`
+--------------------------------------------
+   Files:    secom.data, secom_labels.data
+   Source:   UCI Machine Learning Repository, dataset 179
+             https://archive.ics.uci.edu/dataset/179/secom
+   DOI:      10.24432/C54305
+   Donors:   Michael McCann and Adrian Johnston (2008)
+   License:  Creative Commons Attribution 4.0 International (CC BY 4.0)
+             https://creativecommons.org/licenses/by/4.0/
+
+   CC BY 4.0 permits sharing and adaptation for any purpose, including
+   commercial use, provided appropriate credit is given. The files here are
+   redistributed unmodified — byte-identical to the UCI distribution.
+
+   Full attribution, the citation to use, and a description of the contents
+   are in `experiments/secom_data/ATTRIBUTION.md`.
+
+2. Figures — `figs/`
+--------------------
+   fig_secom.pdf, fig_secom.png, fig_threshold.pdf, fig_detect.pdf
+   (c) 2026 Sunyoung An. Included for reference; not separately licensed for
+   redistribution. The MIT grant applies to the code that produces them, not
+   to the figures themselves.
+
+Third-party dependencies (numpy, scipy, pandas, scikit-learn, numba,
+matplotlib) are not redistributed here; each is installed from PyPI under its
+own permissive BSD/MIT-family license. See README.md section 8 for the full
+breakdown.

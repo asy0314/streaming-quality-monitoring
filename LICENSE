@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This license covers the CODE in this repository (everything under experiments/).
-It does NOT cover:
-
-  * experiments/secom_data/  -- the SECOM dataset, (c) its donors, redistributed
-    under CC BY 4.0. See experiments/secom_data/ATTRIBUTION.md.
-  * figs/  -- (c) 2026 Sunyoung An. See README.md section 8.
